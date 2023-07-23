@@ -1,0 +1,276 @@
+.container-fluid {
+    position: absolute;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 100vh;
+}
+
+.section-1 {
+    margin-left: -98%;
+}
+
+.section-1 img {
+    width: 1.5vw;
+    height: 4vh;
+}
+
+.section-1 .search {
+    width: 1vw;
+    height: 7vh;
+}
+
+.section-2 {
+    margin-left: -98%;
+}
+
+.section-2 .home {
+    width: 1.5vw;
+    height: 6vh;
+}
+
+.section-2 .news {
+    width: 1.5vw;
+    height: 6vh;
+}
+
+.section-2 .list {
+    width: 1.5vw;
+    height: 6vh;
+}
+
+.user {
+    width: 1.5vw;
+    height: 6vh;
+}
+
+.section-3 {
+    margin-left: -98%;
+}
+
+.bell {
+    width: 1.5vw;
+    height: 6vh;
+}
+
+.signout {
+    width: 1.5vw;
+    height: 6vh;
+}
+
+@media (min-width:1024px) and (max-width: 1200px) {
+    .section-1 img {
+        width: 3vw;
+        height: 4vh;
+    }
+
+    .section-1 .search {
+        width: 2.1vw;
+        height: 7vh;
+    }
+
+    .section-1 {
+        margin-left: -99%;
+    }
+
+    .section-2 {
+        margin-left: -99%;
+    }
+
+    .section-2 .home {
+        width: 2.1vw;
+        height: 6vh;
+    }
+
+    .section-2 .news {
+        width: 2.1vw;
+        height: 6vh;
+    }
+
+    .section-2 .list {
+        width: 2.1vw;
+        height: 6vh;
+    }
+
+    .user {
+        width: 2.1vw;
+        height: 6vh;
+    }
+
+    .section-3 {
+        margin-left: -99%;
+    }
+
+    .bell {
+        width: 2.1vw;
+        height: 6vh;
+    }
+
+    .signout {
+        width: 2.1vw;
+        height: 6vh;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1024px) {
+    .bell {
+        width: 4.1vw;
+        height: 6vh;
+        position: absolute;
+        top: -920%;
+        left: 90%;
+    
+    }
+
+
+    .navbar {
+        width: 90vw;
+        height: 10vh;
+        margin-top: 120%;
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+
+    }
+
+    .section-1 img {
+       display: none;
+       visibility: hidden;
+    }
+
+    .section-1 .search {
+        width: 4.1vw;
+       
+
+    }
+
+    .section-1 {
+        margin-left: 50%;
+        display: flex;
+        flex-direction: row;
+        gap: 100%;
+        position: relative;
+        left: 30%;
+        top: 20%;
+
+    }
+
+    .section-2 {
+        margin-left: -240%;
+        display: flex;
+        flex-direction: row;
+        gap: 100%;
+        position: relative;
+        left: 5%;
+        top: 20%;
+    }
+
+    .section-2 .home {
+        width: 4.1vw;
+        height: 6vh;
+    }
+
+    .section-2 .news {
+        width: 4.1vw;
+        height: 6vh;
+    }
+
+    .section-2 .list {
+        width: 4.1vw;
+        height: 6vh;
+    }
+
+    .user {
+        width: 4.1vw;
+        height: 6vh;
+    }
+    .signout {
+        display: none;
+       visibility: hidden;
+    }
+}
+@media (min-width:350px) and (max-width: 768px) {
+    .bell {
+        width: 4.1vw;
+        height: 6vh;
+        position: absolute;
+        top: -920%;
+        left: 90%;
+    
+    }
+
+
+    .navbar {
+        width: 90vw;
+        height: 10vh;
+        margin-top: 120%;
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+
+    }
+
+    .section-1 img {
+       display: none;
+       visibility: hidden;
+    }
+
+    .section-1 .search {
+        width: 4.1vw;
+       
+
+    }
+
+    .section-1 {
+        margin-left: 50%;
+        display: flex;
+        flex-direction: row;
+        gap: 100%;
+        position: relative;
+        left: 30%;
+        top: 20%;
+
+    }
+
+    .section-2 {
+        margin-left: -240%;
+        display: flex;
+        flex-direction: row;
+        gap: 100%;
+        position: relative;
+        left: 5%;
+        top: 20%;
+    }
+
+    .section-2 .home {
+        width: 4.1vw;
+        height: 6vh;
+    }
+
+    .section-2 .news {
+        width: 4.1vw;
+        height: 6vh;
+    }
+
+    .section-2 .list {
+        width: 4.1vw;
+        height: 6vh;
+    }
+
+    .user {
+        width: 4.1vw;
+        height: 6vh;
+    }
+    .signout {
+        display: none;
+       visibility: hidden;
+    }
+}

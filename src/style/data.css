@@ -1,0 +1,85 @@
+.data{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 17%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.heading{
+    margin: 3%;
+    margin-left: -115%;
+}
+.heading h6{
+    font-weight: bolder;    
+}
+
+.heading h5{
+    font-weight: bolder;
+}
+.data-2{
+    margin: 3%;
+    margin-left: -115%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.goal h1{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.acheive h1{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.income h1{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.data-3{
+    margin: 3%;
+    margin-left: -115%;
+}
+.data-3 h4{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.data-3 img{
+    width: 33vw;
+    height: 25vh;
+}
+.data-4{
+    margin: 3%;
+    margin-left: -115%;
+}
+.data-4 h2{
+    font-size: 0.9rem;
+}
+.data-5{
+    margin: 3%;
+    margin-left: -115%;   
+}
+.age{
+    display: flex;
+
+}
+.salary{
+    display: flex;
+}
+.gender{
+    display: flex;
+}
+section p{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.img{
+    position: absolute;
+    display: flex;
+    top: 72%;
+    left: -30%;
+    /* width: 10vw; */
+    height: 20vh;
+}

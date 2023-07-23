@@ -1,0 +1,122 @@
+.strategy {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        right: 3%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: rgb(245, 245, 245);
+        height: 60vh;
+        margin-top: 5%;
+        border-radius: 2%;
+}
+
+.strategy-head {
+        margin: 5%;
+}
+
+.range {
+        display: flex;
+        gap: 5%;
+}
+
+.range input {
+        width: 20vw;
+}
+
+.percentage {
+        display: flex;
+        gap: 30%;
+        font-weight: bolder;
+}
+
+.vertical {
+        border: none;
+        border-left: 1px solid hsla(200, 10%, 50%, 100);
+        height: 23vh;
+        width: 2px;
+}
+
+.offer {
+        display: flex;
+        gap: 5%;
+}
+
+.housing {
+        font-weight: bolder;
+}
+
+@media (min-width:350px) and (max-width:768px) {
+        .strategy {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                background-color: rgb(245, 245, 245);
+                height: 60vh;
+                left: 0%;
+                margin-top: 200%;
+                border-radius: 2%;
+                width: 70vw;
+        }
+
+        .strategy-head {
+                margin: 5%;
+        }
+        .strategy-head h4 {
+               font-size: 2rem;
+               font-weight: bold;
+        }
+        .strategy-head h6 {
+               font-size: 1.6rem;
+               font-weight: bold;
+        }
+
+        .range {
+                display: flex;
+                gap: 5%;
+        }
+
+        .range input {
+                width: 100vw;
+        }
+
+        .percentage {
+                display: flex;
+                gap: 30%;
+                font-weight: bolder;
+        }
+        .percentage p{
+                font-size: 1.5rem;
+        }
+        .btn{
+                position: relative;
+                top: 30%;
+        }
+        .vertical {
+                position: absolute;
+                border: none;
+                border-left: 1px solid hsla(200, 10%, 50%, 100);
+                height: 23vh;
+                width: 2px;
+                top: 100%;
+        }
+
+        .docs{
+                display: none;
+                visibility: hidden;
+        }
+        .offer {
+                display: none;
+                visibility: hidden;
+                gap: 5%;
+        }
+        .offer div {
+             position: absolute;
+             top: 105%; 
+             left: 10%; 
+        }
+
+        .housing {
+                font-weight: bolder;
+        }
+}
